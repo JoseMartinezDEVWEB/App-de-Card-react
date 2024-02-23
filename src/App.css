@@ -1,0 +1,51 @@
+body{
+  background: rgb(47, 47, 54)
+}
+.App h1{
+  text-align: center;
+  background: red;
+  color: aquamarine;
+  width: 99%;
+  padding: 5px;
+  border-radius: 15px;
+}
+.App h1 em{
+  color: blue;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnInfo {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 50px;
+}
+.btnShow {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+.btnShow:hover {
+  background-color: #2563eb;
+}
+
+.divInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(140, 140, 242);
+}
+.info{
+  text-align: center;
+}
+

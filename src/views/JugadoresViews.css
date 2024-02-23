@@ -1,0 +1,10 @@
+.views {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.views img{
+    display: block;
+    max-width: 100%;
+}
